@@ -1,0 +1,16 @@
+- key: filecountbeat
+  title: filecountbeat
+  description:
+  fields:
+    - name: message
+      type: text
+      required: true
+      description: Full counter as string
+    - name: file
+      type: long
+      required: true
+      description: File count
+    - name: folder
+      type: long
+      required: true
+      description: Folder Count
